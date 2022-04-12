@@ -23,6 +23,6 @@ function wasmFound(data) {
     await page.goto("https://magnum.graphics/showcase/picking/")
 
     //Wait a bit, to make sure the Wasm as chance to load
-    await new Promise(done => setTimeout(done, 1000));
+    await new Promise(done => setTimeout(done, 5000));
     await browser.close();
 })();
