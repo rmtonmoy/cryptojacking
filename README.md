@@ -1,5 +1,7 @@
 # Wasm Extractor
-Collects all WebAssembly modules from a given website
+Collects all WebAssembly modules from a given *list of websites*. 
+
+The text below this line has been copy-pasted.
 
 ## Background
 Since we published our [DIMVA paper](https://www.tu-braunschweig.de/Medien-DB/ias/pubs/2019-dimva.pdf), I got multiple questions about our data collection and implementation. Here is a simplified version of this code as a small, stand-alone version using [Puppeteer](https://github.com/GoogleChrome/puppeteer). Unfortunately, it can not collect modules running in WebWorkers. If this is a requirement for you, consider one of the [alternatives](#alternatives).
