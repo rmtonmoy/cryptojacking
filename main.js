@@ -20,7 +20,7 @@ function wasmFound(data) {
     const page = await browser.newPage();
     await page.exposeFunction("wasmFound", source => wasmFound(source));
     await page.evaluateOnNewDocument(wrapper);
-    await page.goto("https://magnum.graphics/showcase/picking/")
+    await page.goto("https:\\coach.com")
 
     //Wait a bit, to make sure the Wasm as chance to load
     await new Promise(done => setTimeout(done, 5000));
